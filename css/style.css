@@ -1,9 +1,40 @@
+/*css reset*/
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: blue;
+
+/*utils*/
+.container {
+    max-width:900px;
+    margin:0 auto;
 }
+
+.card-deck {
+    display:flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-width:290px ;
+    flex-basis: calc(100% / 3 - (15px * 2) / 3);
+    flex-shrink: 0;
+    border: 2px solid red;
+}
+
+.main-header {
+    margin-bottom: 55px;
+}
+
+/*generics*/
+header {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: beige;
+}
+
