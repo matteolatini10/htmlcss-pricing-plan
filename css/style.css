@@ -25,7 +25,8 @@
     min-width:290px ;
     flex-basis: calc(100% / 3 - (15px * 2) / 3);
     flex-shrink: 0;
-    border: 2px solid red;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .main-header {
@@ -101,3 +102,6 @@ h1 {
   margin: .75rem 0;
 }
 
+.price {
+    font-size:30px;
+}
